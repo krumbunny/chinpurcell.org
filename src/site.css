@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  a {
+    @apply hover:underline;
+  }
+}
+
+.button {
+  @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  text-decoration: none;
+}
+
+.download {
+  overflow: hidden;
+  background: url(/images/Download.svg) no-repeat;
+  width: 165px;
+  height: 40px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Baloo 2', cursive;
+}

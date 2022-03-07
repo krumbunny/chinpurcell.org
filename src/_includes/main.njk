@@ -1,0 +1,19 @@
+---
+layout: base
+---
+<div class='flex flex-col items-center bg-slate-500'>
+
+  {% include "topmenu.njk" %}
+
+  <div class='flex flex-row text-white mt-6 mb-6'>
+    <div class='font-logo text-5xl'>Mixup</div>
+    <div class="font-headline text-2xl ml-10">A notebook and calculator<br />for
+      pottery glazes.</div>
+  </div>
+</div>
+
+<div class="flex flex-col items-center">
+  <article class='prose p-8'>
+    {{ content | safe }}
+  </article>
+</div>
