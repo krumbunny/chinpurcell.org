@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Mixup Home
+title: Krum Bunny
+eleventyNavigation:
+  key: Home
 ---
 ## Ken Chin-Purcell
 
